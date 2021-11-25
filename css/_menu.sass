@@ -1,0 +1,119 @@
+// -----------logo y contacto
+.logoYcontacto
+    width: 50%
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: space-evenly
+    -ms-flex-pack: space-evenly
+    justify-content: space-evenly
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+
+.logo__imagen
+    width: 250px
+
+.tel-mail__contacto
+    width: 100%
+    height: 88%
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-align: start
+    -ms-flex-align: start
+    align-items: flex-start
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    color: #fff
+    font-size: 12px
+
+.tel-mail__contenedor
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+.tel-mail__icono
+    color: rgb(11, 66, 49)
+    font-size: 20px
+    margin-left: 30px
+    margin-right: 10px
+
+
+// -------------------menu
+.menu-responsive
+    display: none
+
+.contenedor-menu
+    width: 100%
+    z-index: 100
+
+.menu
+    background: #6c6b6b
+    z-index: 100
+    width: 100%
+    margin: 0 auto
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, .2)
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2)
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+
+
+.menu__lista
+    list-style: none
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+
+.menu__lista li
+    display: inline-block
+    position: relative
+
+.menu__children
+    display: none
+    background: #555555
+    position: absolute
+    width: 120%
+    z-index: 100
+
+.menu__children li
+    display: block
+    border-bottom: 1px solid rgba(255, 255, 255, .5)
+
+.menu__children li a
+    display: block
+    font-size: 14px
+
+.menu__lista li:hover .menu__children
+    display: block
+
+.menu__lista li a:hover
+    color: rgb(11, 66, 49)
+    transition: .3s ease all
+
+.menu__lista li a
+    color: #fff
+    display: block
+    text-decoration: none
+    padding: 15px
+
+.menu__lista li .caret
+    position: relative
+    top: 3px
+    margin-left: 10px
+    margin-right: 0px

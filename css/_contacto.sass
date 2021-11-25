@@ -1,0 +1,170 @@
+.contendor-contacto
+    margin-bottom: 40px
+
+.main__subtitulo.contacto
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: start
+    -ms-flex-pack: start
+    justify-content: flex-start
+    color: #000
+    margin-left: 12%
+    margin-bottom: 0
+
+.formualario-imagenes
+    width: 100%
+    height: 100%
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+
+// -----------------formulario
+.formulario__contenedor
+    width: 100%
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    margin: auto
+
+.formulario__nombre-mail
+    width: 100%
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+    
+    
+.formulario__grupo.nombre,
+.formulario__grupo.email
+    width: 45%
+
+.formulario__grupo
+    position: relative
+    margin: 35px
+
+.formulario__grupo input,
+.formulario__grupo textarea
+    font-family: 'Poppins', sans-serif
+    background: none
+    color:#727272
+    font-size: 16px
+    padding: 0px 10px 10px 5px
+    display: block
+    width: 100%
+    border: none
+    border-bottom: 1px solid #979797
+    resize: none
+
+.formulario__grupo textarea
+    height: 150px
+
+.formulario__grupo input:focus,
+.formulario__grupo textarea:focus
+    outline: none
+    color: rgb(94,93,93)
+    
+.formulario__barra
+    position: relative
+    display: block
+    width: 100%
+
+.formulario__grupo input:focus~.formulario__barra::before, .formulario__grupo textarea:focus~.formulario__barra::before
+    width: 100%
+    
+.formulario__barra::before
+    content: ''
+    height: 2px
+    width: 0%
+    bottom: 0
+    position: absolute
+    background: linear-gradient(to right, #075211, #42d473)
+    transition: 0.3s ease all
+    left: 0%
+    
+.formulario__boton
+    background: rgb(24, 128, 95)
+    display: block
+    width: 100px
+    height: 40px
+    border: none
+    color:#fff
+    border-radius: 4px
+    font-size: 16px
+    margin: 10px auto
+    cursor: pointer
+    font-family: 'Poppins', sans-serif
+    text-transform: uppercase
+    transition: .3s ease all
+    box-shadow: 0px 6px 20px -10px rgba(0,0,0,0.9)
+    &:hover
+        background: rgb(16, 90, 66)
+        color: #fff
+
+// -----------------imagenes ciudad 
+.imagenes-contacto
+    width: 40%
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-align: end
+    -ms-flex-align: end
+    align-items: flex-end
+
+.imagen-contenedor
+    margin: 20px
+    box-shadow: 0px 6px 20px -10px rgba(0,0,0,0.9)
+
+.imagen-contenedor, .imagen-contenedor__img 
+    display: block
+    position: relative	
+    width: 420px
+
+.imagen-contenedor__texto
+    background-color: rgba(0, 0, 0, .5)
+    display: block
+    position: absolute
+    bottom: 0px
+    left: 0
+    padding: 5px
+    width: 100%
+    color: #fff
+    font-size: 15px
+    text-align: center
+
+// ----------------mapas
+
+.contenedor-mapas
+    width: 100%
+    background: #e6e6e6
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -ms-flex-pack: distribute
+    justify-content: space-around
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    // margin: 30px auto
+    padding: 30px 0
